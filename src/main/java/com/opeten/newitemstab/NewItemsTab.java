@@ -11,6 +11,8 @@ public class NewItemsTab implements ModInitializer {
 
     public static final String MOD_ID = "nit";
 
+    boolean cool = true;
+
     public static final ItemGroup NEW_ITEMS = FabricItemGroupBuilder.create(
                     new Identifier(MOD_ID, "new_items"))
             .icon(() -> new ItemStack(Items.ECHO_SHARD))
