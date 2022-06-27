@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "nis",
+  "version": "${version}",
+
+  "name": "New Items Tab",
+  "description": "Adds a new tab to the creative inventory that has al new items for that minecraft version",
+  "authors": [
+    "Code : Opeten",
+    "Example Mod: FabricMC(https://github.com/FabricMC/fabric-example-mod)",
+    "Mod Icon Texture: Opeten"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/nit/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.opeten.newitemstab.NewItemsTab"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
